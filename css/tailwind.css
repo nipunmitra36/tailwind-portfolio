@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* group utility  */
+@layer base{
+    h1,h2,h3,h4,h5,h6,p,span{
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+.btn-primary{
+    @apply text-white bg-purple-700 px-8 py-3 hover:bg-gray-800 duration-300 rounded-md mt-5 inline-block;
+}
